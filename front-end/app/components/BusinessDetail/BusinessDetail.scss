@@ -1,0 +1,58 @@
+.BusinessDetail{
+  padding-top: 60px;
+  overflow: hidden;
+  .search{
+    width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+    input{
+      width: 574px;
+      height: 50px;
+      line-height: 50px;
+      border: none;
+      background: #fff;
+      border-radius: 4px;
+      font-size: 18px;
+      padding-left: 16px;
+      outline: none;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      color: #666666;
+    }
+    .btn{
+      display: inline-block;
+      background: rgb(41, 94, 164);
+      width: 150px;
+      line-height: 50px;
+      text-align: center;
+      color: #fff;
+      cursor: pointer;
+      margin-left: -2px;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+  }
+  .tabsWraper{
+    width: 1200px;
+    margin: 20px auto;
+    .tabs{
+      display: flex;
+      div{
+        width: 33%;
+        text-align: center;
+        span{
+          color: #000;
+          font-size: 18px;
+          text-decoration: none;
+          line-height: 50px;
+          display: inline-block;
+          padding: 0 10px;
+          cursor: pointer;
+        }
+        .active{
+          border-bottom: 3px solid rgb(76, 178, 212);
+        }
+      }
+    }
+  }
+}

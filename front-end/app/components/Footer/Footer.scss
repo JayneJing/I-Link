@@ -1,0 +1,39 @@
+.footerWraper{
+  // width: 100%;
+  // background: rgb(76, 178, 212);
+  background: #295ea4;
+  margin: auto;
+  overflow: hidden;
+  height: 200px;
+  color: #fff;
+  .footerInfo {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    ul{
+      list-style-type: none;
+      margin-right: 100px;
+      margin-top: 20px;
+      li {
+        margin: 10px;
+      }
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+      height: 100%;
+      span {
+        display: block;
+        margin-top: 10px;
+        align-items: flex-end;
+        cursor: pointer;
+      }
+      :nth-child(1) {
+        margin-top: 126px;
+      }
+    }
+  }
+}

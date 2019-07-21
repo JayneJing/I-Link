@@ -1,0 +1,3 @@
+export const CHARITY_ADDRESS = 'Af4mYFuHBo7RQ5zyiRvQz4Bm1u5zpL8jBE'
+export const ACTUATOR_ADDRESS = 'ATuHwSj13ew142ifnLAW9HpaB28ccdwwf7'
+export const PROVIDER_ADDRESS = 'AXJaVSTDEXVgPNP7TpW1uvw35T3zECivZn'

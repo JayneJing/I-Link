@@ -1,0 +1,70 @@
+.user{
+  width: 500px;
+  height: 300px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px 1px;
+  flex-shrink: 0;
+  &:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 7px 1px;
+  }
+  display: flex;
+  .photoWraper{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .photo{
+      width: 140px;
+      border-radius: 4px;
+    }
+    .photoCharity {
+      width: 180px;
+      border-radius: 4px;
+    }
+  }
+  .userInfo{
+    width: 280px;
+    .edit{
+      font-family:Roboto, "Heiti SC", "Microsoft Yahei", simsun, sans-serif;
+      font-size:16px;
+      height:24px;
+      line-height:24px;
+      text-align: right;
+      margin-top: 20px;
+      color: #333333;
+      cursor: pointer;
+      &:hover{
+        color: #337ab7;
+      }
+    }
+    p{
+      font-family:Roboto, "Heiti SC", "Microsoft Yahei", simsun, sans-serif;
+      font-size:16px;
+      line-height:24px;
+      padding-right: 80px;
+      margin: 10px 0;
+      span{
+        display: inline-block;
+        margin-right: 4px;
+        color: #333333;
+      }
+    }
+    .description {
+      display: flex;
+      font-family:Roboto, "Heiti SC", "Microsoft Yahei", simsun, sans-serif;
+      font-size:16px;
+      line-height:24px;
+      margin: 10px 0;
+      span {
+        display: block;
+        width: 76px;
+      }
+      .descriptionInfo {
+        display: block;
+        flex: 1;
+      }
+    }
+  }
+}

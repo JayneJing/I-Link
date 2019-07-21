@@ -1,0 +1,78 @@
+.effectWrapper {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    .countWrapper {
+      width: 100%;
+      height: 400px;
+      display: flex;
+      // background: #1cabe2;
+      background: #295ea4;
+      justify-content: space-around;
+      align-items: center;
+      color: #fff;
+      .item {
+          width: 350px;
+          height: 200px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          p {
+            font-size: 28px;
+          }
+          span {
+            font-size: 80px;
+            label {
+              font-size: 20px;
+            }
+          }
+          // text-align: center;
+          // line-height: 200px;
+      }
+    }
+    .contentWrapper {
+      width: 1200px;
+      margin: 50px auto;
+      .HelpWrapper {
+        width: 100%;
+        height: 320px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        .helpPie {
+          width: 400px;
+          padding-top: 20px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px 1px;
+        }
+        .helpList {
+          width: 750px;
+          padding-top: 20px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px 1px;
+          .listTit {
+            width: 100%;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            font-size: 18px;
+            font-weight: bold;
+          }
+          .listContent {
+            width: 100%;
+            height: 246px;
+            overflow: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+          }
+        }
+    }
+    .barWrpper {
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+        padding-top: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px 1px;
+    }
+    }
+    
+}

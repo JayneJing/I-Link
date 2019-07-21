@@ -1,0 +1,54 @@
+.account{
+  width: 500px;
+  height: 300px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px 1px;
+  padding: 20px 20px 20px 40px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  &:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 2px 7px 1px;
+  }
+  .accountTitle{
+    font-family: Roboto, "Heiti SC", "Microsoft Yahei", simsun, sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    color:#333333;
+    &::before {
+      content: '\2002';
+      display: inline-block;
+      width: 5px;
+      height: 20px;
+      background: #295ea4;
+      margin-right: 20px;
+    }
+  }
+  .accountInfo{
+    font-family: Roboto, "Heiti SC", "Microsoft Yahei", simsun, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    text-indent: 40px;
+    span{
+      font-size: 24px;
+    }
+  }
+  .operate{
+    background: rgb(41, 94, 164);
+    color: white;
+    padding: 7px 20px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Roboto, "Heiti SC", "Microsoft Yahei", simsun, sans-serif;
+    float: right;
+    cursor: pointer;
+    margin-left: 16px;
+    &:hover{
+      background: rgb(48, 120, 200);
+    }
+  }
+}

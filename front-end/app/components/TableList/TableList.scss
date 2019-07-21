@@ -1,0 +1,102 @@
+.tableWraper{
+  width: 100%;
+  background: transparent;
+  padding: 20px 0;
+  overflow: hidden;
+  .tableContent{
+    width:1200px;
+    overflow: hidden;
+    margin: auto;
+    .sessionName{
+      float: left;
+      color: #333333;
+      font-family: SourceSansPro-Regular,Helvetica Neue,Arial,sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 31px;
+      margin-bottom: 10px;
+    }
+    .refresh{
+      background: rgb(41, 94, 164);
+      font-family:Roboto, "Heiti SC", "Microsoft Yahei", simsun, sans-serif;
+      font-size:14px;
+      font-weight:500;
+      padding: 7px 20px;
+      border-radius: 4px;
+      text-align: center;
+      color: white;
+      float: right;
+      margin-bottom: 10px;
+      cursor: pointer;
+      clear: both;
+      &:hover{
+        background: rgb(48, 120, 200);
+      }
+    }
+    .tableList{
+      clear: both;
+      background: white;
+      table{
+        width: 100%;
+        border-collapse: collapse;
+        thead tr{
+          th{
+            box-sizing:border-box;
+            color:white;
+            font-family:SourceSansPro-Regular, "Helvetica Neue", Arial, sans-serif;
+            font-size:16px;
+            padding: 12px;
+            background: rgb(54, 122, 189);
+          }
+        }
+        tbody tr{
+          cursor: pointer;
+          td{
+            border-top: 1px solid #dee2e6;
+            line-height: 20px;
+            font-family:SourceSansPro-Regular, "Helvetica Neue", Arial, sans-serif;
+            font-size:14px;
+            font-weight:400;
+            padding: 12px;
+            color: #666666;
+          }
+          &:hover{
+            background: rgba(0,0,0,.075);
+          }
+        }
+        tbody .green{
+          td:nth-last-child(1){
+            color: green;
+          }
+        }
+        tbody .red{
+          td:nth-last-child(1){
+            color: red;
+          }
+        }
+      }
+    }
+  }
+  .more {
+    display: block;
+    width:1200px;
+    height: 30px;
+    overflow: hidden;
+    margin: auto;
+    line-height: 20px;
+    text-align: right;
+    color: #295ea4;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+    color: #295ea4;
+  }
+}
+.green{
+    color: green !important;
+}
+.red{
+    color: red !important;
+
+}

@@ -1,0 +1,73 @@
+.navWraper{
+  width: 100%;
+  // background: rgb(76, 178, 212);
+  // background: #1cabe2;
+  background: #295ea4;
+  margin: auto;
+  overflow: hidden;
+  height: 160px;
+  box-shadow: 0 3px 2px 0 rgba(0,0,0,.1);
+  position: relative;
+  .logo {
+    box-sizing: border-box;
+    padding: 0 60px;
+    height: 100px;
+    .flex {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      .logoImg {
+        height: 90px;
+      }
+      .kindsOrgan{
+        color: white;
+        p {
+          margin: 40px 0 10px 0;
+        }
+        span{
+          display: inline-block;
+          margin-left: 40px;
+          cursor: pointer;
+        }
+        :nth-child(2) {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  .navTop{
+    background: #fff;
+    height: 60px;
+    width: 100%;
+    div{
+      display: inline-block;
+      margin-left: 100px;
+      a{
+        color: #333333;
+        font-size: 18px;
+        text-decoration: none;
+        line-height: 50px;
+        display: block;
+        padding: 0 10px;
+        cursor: pointer;
+        &:hover{
+          // border-bottom: 5px solid #1cabe2;
+        }
+      }
+    }
+    // div:nth-child(1) {
+    //   border-bottom: 5px solid #1cabe2;
+    // }
+    .tabBackground{
+      // border-bottom: 5px solid #1cabe2;
+      border-bottom: 5px solid #295ea4;
+    }
+  }
+  .navBto{
+    background: #eee;
+    font-size: 18px;
+    color: #666;
+    text-indent: 40px;
+    line-height: 50px;
+  }
+}

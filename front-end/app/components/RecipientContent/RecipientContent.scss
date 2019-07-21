@@ -1,0 +1,71 @@
+.content{
+  width: 1200px;
+  margin: auto;
+  margin-top: 60px;
+  .title{
+    width: 800px;
+    margin: auto;
+    font-family:Roboto, "Heiti SC", "Microsoft Yahei", simsun, sans-serif;
+    font-size:42px;
+    font-weight:400;
+    line-height: 60px;
+    padding: 20px 0;
+    text-align: center;
+    color: #333333;
+  }
+  .contentTop{
+    box-shadow: rgba(0, 0, 0, 0.25) 1px 1px 2px 0px;
+    padding: 20px 100px;
+    display: flex;
+    margin: 20px 0;
+    .raiseMoney{
+      font-family:PingFangSC-Regular, "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+      font-size:16px;
+      font-weight:400;
+      color: #666;
+      .number{
+        color: #ffa300;
+        font-size: 24px;
+        display: inline-block;
+        margin-right: 10px;
+      }
+    }
+    .walletAddress{
+      font-family:PingFangSC-Regular, "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+      font-size:16px;
+      font-weight:400;
+      color: #666;
+      margin-left: 120px;
+      .address{
+        color: #ffa300;
+        font-size: 24px;
+        display: inline-block;
+        margin-right: 10px;
+      }
+    }
+  }
+  .contentBottom{
+    overflow: hidden;
+    .reasonTitle{
+      color: #333333;
+      font-size: 20px;
+      font-family: PingFangSC-Regular, "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+      margin: 20px 0;
+    }
+    .reasonDespict{
+      font-family:PingFangSC-Regular, "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+      font-size:16px;
+      font-weight:300;
+      line-height: 30px;
+      color: #666666;
+    }
+    .imgs{
+      margin: 40px 0;
+      text-align: center;
+      img{
+        width: 300px;
+        margin: 0 20px;
+      }
+    }
+  }
+}

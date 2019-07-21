@@ -1,0 +1,48 @@
+.templateWraper{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px;
+  margin-top: -150px;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px 1px;
+  font-size: 18px;
+  background: #fff;
+  .closeBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    color: #666;
+    cursor: pointer;
+  }
+  h1 {
+    margin-top: 25px;
+    font-size: 30px;
+  }
+  .info {
+    width: 700px;
+    div {
+      margin: 30px 0;
+      text-align: center;
+    }
+  }
+  .submit {
+    background: #1cabe2;
+    color: #fff;
+    margin-top: 10px;
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}

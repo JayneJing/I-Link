@@ -1,0 +1,48 @@
+.charityWraper{
+  width: 1200px;
+  // background: #1cabe2;
+  margin: auto;
+  // height: 400px;
+  display: flex;
+  flex-direction: column;
+  .charityInfoBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    height: 400px;
+    .charityInfo {
+      display: flex;
+      // background: #1cabe2;
+    }
+    .charityActive {
+      display: flex;
+      // background: #1cabe2;
+    }
+
+  }
+  .charityList {
+    // height: 600px;
+    // background: #1cabe2;
+    // margin: 60px 0;
+  }
+  .checkWraper{
+    p{
+      color: #333333;
+      font-family: SourceSansPro-Regular,Helvetica Neue,Arial,sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 31px;
+      margin-bottom: 10px;
+    }
+    .releaseHistory{
+      width: 1200px;
+      background: white;
+      padding: 20px 0;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  }
+}

@@ -1,0 +1,261 @@
+.bodyWrapper {
+  background: #f1f1f1;
+  padding-bottom: 20px;
+  .swiperWrapper {
+    background: url('./swiper1.jpg') no-repeat 100% 100%;
+    // background: #000;
+    height: 760px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .fromWrapper {
+      width: 600px;
+      // height: 50px;
+      margin: 0 auto;
+      .choiseWrapper {
+        display: flex;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        overflow: hidden;
+        .browseBtn {
+          background: rgb(41, 94, 164);
+          width: 118px;
+          line-height: 50px;
+          text-align: center;
+          color: #fff;
+          // font-size: 24px;
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+          cursor: pointer;
+        }
+      }
+      .input {
+        width: 574px;
+        height: 50px;
+        line-height: 50px;
+        border: none;
+        background: #fff;
+        border-radius: 4px;
+        font-size: 18px;
+        padding-left: 16px;
+        ::placeholder {
+          color: #666;
+          font-size: 18px;
+          margin-left: 10px;
+        }
+      }
+      .input:nth-child(1) {
+        width: 458px;
+        color: #666;
+        border-radius: 0;
+      }
+      .submit {
+        margin: 0 auto;
+        background: rgb(41, 94, 164);
+        height: 50px;
+        width: 200px;
+        text-align: center;
+        line-height: 50px;
+        color: #fff;
+        border-radius: 4px;
+        // margin-top: 20px;
+        cursor: pointer;
+      }
+      .alert {
+        display: block;
+        color: red;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+      }
+      .roleSelect {
+        width: 590px;
+        height: 50px;
+        line-height: 50px;
+        margin: 20px 0;
+        border: none;
+        // background: #fff;
+        border-radius: 4px;
+        font-size: 18px;
+        // padding-left: 16px;
+        position: relative;
+        overflow: hidden;
+        .downImg {
+          width: 50px;
+          height: 50px;
+          position: absolute;
+          right: 20px;
+        }
+        ul {
+          list-style: none;
+          padding: 0;
+          display: flex;
+          justify-content: space-between;
+          .listItem {
+            display: flex;
+            flex: 1;
+            text-align: center;
+            line-height: 50px;
+            cursor: pointer;
+            color: #fff;
+            // color: #1cabe2;
+            justify-content: center;
+            align-items: center;
+            .drow {
+              width: 10px;
+              height: 10px;
+              border-radius: 50px;
+              background: #fff;
+              margin-right: 10px;
+            }
+          }
+          .itemActive {
+            // background: #1cabe2;
+            color: #fff;
+            // color: #1cabe2;
+          }
+          .drowActive {
+            background: rgb(41, 94, 164) !important;
+          }
+        }
+      }
+    }
+  }
+  .infoWrapper {
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .newsWrapper {
+      width: 760px;
+      height: 500px;
+      .newImg {
+        width: 400px;
+        height: 100%;
+        background: white;
+        display: flex;
+        // justify-content: center;
+        // align-items: center;
+        overflow: hidden;
+        img{
+          height: 100%;
+        }
+      }
+      .newInfo {
+        background: #fff;
+        width: 320px;
+        padding: 20px;
+        position: relative;
+        .time {
+          display: block;
+          font-size: 14px;
+          // margin-top: 20px;
+          margin-bottom: 10px;
+          color: #666;
+        }
+        .more {
+          position: absolute;
+          color: rgb(41, 94, 164);
+          left: 20px;
+          bottom: 20px;
+        }
+        .text {
+          display: block;
+          margin-top: 10px;
+        }
+      }
+    }
+    .blogWrapper {
+      width: 400px;
+      height: 500px;
+      flex-direction: column;
+      .blogImg {
+        width: 100%;
+        height: 225px;
+        // height: 280px;
+        // background: yellow;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        overflow: hidden;
+        img{
+          width: 100%;
+        }
+      }
+      .blogInfo {
+        background: #fff;
+        height: 235px;
+        padding: 20px;
+        position: relative;
+        .time {
+          display: block;
+          font-size: 14px;
+          // margin-top: 20px;
+          margin-bottom: 10px;
+          color: #666;
+        }
+        .text {
+          display: block;
+          margin-top: 10px;
+        }
+        .more {
+          position: absolute;
+          color: rgb(41, 94, 164);
+          left: 20px;
+          bottom: 20px;
+        }
+      }
+    }
+    .videoWrapper {
+      margin-top: 40px;
+      width: 1200px;
+      height: 500px;
+      .videoImg {
+        width: 800px;
+        height: 100%;
+        background: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+      .videoInfo {
+        background: #fff;
+        width: 400px;
+        padding: 20px;
+        position: relative;
+        .time {
+          display: block;
+          font-size: 14px;
+          // margin-top: 20px;
+          margin-bottom: 10px;
+          color: #666;
+        }
+        .text {
+          display: block;
+          margin-top: 10px;
+        }
+        .more {
+          position: absolute;
+          color: rgb(41, 94, 164);
+          left: 20px;
+          bottom: 20px;
+        }
+      }
+    }
+  }
+  .infoWrapper > div {
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px 1px rgba(0,0,0,.25);
+    background: rgb(41, 94, 164);
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    h4 {
+      color: #999;
+    }
+  }
+}
