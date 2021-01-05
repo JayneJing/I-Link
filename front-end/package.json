@@ -13,7 +13,7 @@
     "@hot-loader/react-dom": "^16.8.6",
     "@types/react": "^16.8.17",
     "@types/webpack": "^4.4.27",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^7.1.4",
